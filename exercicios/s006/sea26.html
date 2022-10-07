@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: darksalmon;
+            margin: 0px;
+        }
+        header {
+            background-color: antiquewhite;
+            padding: 10px;
+            margin: 10px;
+        }
+        h1 {
+            box-shadow:  2px 1px 14px 6px rgb(211, 124, 124);
+        }
+        h2 {
+            box-shadow: inset 2px 1px 14px 6px rgb(104, 204, 115);
+        }
+        nav {
+            background-color: cadetblue;
+            padding: 3px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: azure;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a {
+            text-decoration: underline;
+        }
+        main {
+            background-color: antiquewhite;
+            padding: 10px;
+            margin: 10px;
+        }
+        article {
+            background-color: chocolate;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: brown;
+        }
+        footer {
+            background-color: aquamarine;
+            color: blue;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vida Saudável</h1>
+        <nav>
+          <a href="#">link</a> 
+          <a href="#">link</a> 
+          <a href="#">link</a>
+          <a href="#">link</a>
+          <a href="#">link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Saúde Alimentação Exercícios</p>
+
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>Notícias sobre saúde</h2>
+                <p>Para a OMS, <strong>saúde</strong> é: "O estado de completo bem-estar fisico, mental e social e não apenas a ausência de doença". Com essa definição, vemos que não é necessário apenas não, <strong>ter</strong> doenças para ser saudável, sendo fubdamental estar bem em vários aspectos da vida.</p>
+                <aside>
+                    <p>Artigo escrito por Paola Bracho</p>
+                </aside>
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por mim</p>
+
+    </footer>
+    
+</body>
+</html>
