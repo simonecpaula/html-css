@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu exercício de tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        .verde {
+            background-color: aquamarine;
+        }
+        .rosa {
+            background-color: lightcoral;
+        }
+        .azul {
+            background-color: cornflowerblue;
+        }
+        .amarelo {
+            background-color: gold;
+        }
+        .vermelho {
+            background-color: fuchsia;
+        }
+    </style>
+   
+</head>
+<body>
+    <h1>Meu exercício de tabela</h1>
+    <table>
+        <colgroup>
+            <col class="verde">
+            <col class="rosa">
+            <col class="azul">
+            <col class="amarelo">
+            <col class="vermelho">
+        </colgroup>
+        <caption>Cadastro</caption>
+        
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Comida</th>
+            <th scope="col">Lazer</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Simone</td>
+            <td>Moqueca</td>
+            <td>Viajar</td>
+            <td>57</td>
+            <td>Téc.Informática</td>
+        </tr>
+        <tr>
+            <td>Catarina</td>
+            <td>strogonoff</td>
+            <td>Cinema</td>
+            <td>30</td>
+            <td>Administradora</td>
+            
+        </tr>
+        <tr>
+            <td>Sandra</td>
+            <td>Spaguetti</td>
+            <td>Acampar</td>
+            <td>54</td>
+            <td>Empresária</td>
+        </tr>
+        <tr>
+            <td>Betania</td>
+            <td>Feijoada</td>
+            <td>Cinema</td>
+            <td>51</td>
+            <td>Dona de casa</td>
+
+            
+        </tr>
+        <tr>
+            <td>Ane</td>
+            <td>Risoto</td>
+            <td>Esportes</td>
+            <td>48</td>
+            <td>Autônoma</td>
+        </tr>
+        <tr>
+            <td>Helena</td>
+            <td>Lagosta</td>
+            <td>Shopping</td>
+            <td>72</td>
+            <td>Empresária</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
